@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webbinformation</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Webbinformation</a>
+
+            <div class="text-center my-2">
+                <button class="btn btn-secondary me-2" onclick="setDarkMode()">Dark</button>
+                <button class="btn btn-secondary" onclick="setLightMode()">Light</button>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#upphovsratt">Upphovsrätt</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gdpr">GDPR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#netikett">Netikett</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tillganglighet">Tillgänglighet</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero d-flex align-items-center text-center text-white">
+        <div class="container">
+            <h1 class="display-5 fw-bold">
+                Lagar, Regler, Vett och Etikett på Webben
+            </h1>
+            <p class="lead">
+                En guide till viktig information om juridiska krav och god sed på internet
+            </p>
+        </div>
+    </section>
+</header>
+
+<main class="container mt-5">
+
+    <section id="upphovsratt" class="mb-4">
+        <article class="card shadow-sm p-4">
+            <h2>Upphovsrätt (Copyright)</h2>
+
+            <a href="https://www.prv.se/sv/upphovsratt/" target="_blank" class="text-secondary">
+                Läs mer om upphovsrätt
+            </a>
+
+            <h3 class="mt-4">Creative Commons (CC)</h3>
+            <p>
+                Creative Commons är en typ av licens som gör det möjligt för en person som skapat något,
+                till exempel en bild, text eller film, att dela sitt verk med andra men ändå bestämma
+                hur det får användas. Det kan till exempel vara tillåtet att använda materialet om man
+                anger källan, men inte ändra det eller tjäna pengar på det. CC-licenser gör det enklare
+                att dela material lagligt på internet eftersom villkoren är tydliga från början.
+            </p>
+
+            <h3>Copyright ©</h3>
+            <p>
+                Copyright betyder upphovsrätt. Symbolen © visar att ett verk är skyddat och att det
+                är skaparen som har rättigheterna till det. Det innebär att andra inte får kopiera,
+                sprida eller använda materialet utan tillstånd. Upphovsrätt gäller automatiskt när
+                något skapas och behöver alltså inte registreras.
+            </p>
+
+            <h3>Skillnaden mellan © och ®</h3>
+            <p>
+                Symbolen ® står för registrerat varumärke. Skillnaden är att © gäller upphovsrätt
+                för till exempel texter, bilder och musik, medan ® gäller varumärken som företagsnamn,
+                logotyper eller symboler som är registrerade hos en myndighet. Ett varumärke måste
+                registreras för att få använda ®, medan upphovsrätt uppstår direkt när ett verk skapas.
+            </p>
+
+            <h3>Plagiat</h3>
+            <p>
+                Plagiat innebär att man använder någon annans arbete och presenterar det som sitt eget.
+                Det kan vara att kopiera en text rakt av eller ändra några ord utan att ange källa.
+                Plagiat är fel eftersom man tar äran för någon annans arbete och bryter mot upphovsrätten.
+                För att undvika plagiat ska man skriva med egna ord och ange källa när man använder
+                information från andra.
+            </p>
+        </article>
+    </section>
+
+    <section id="gdpr" class="mb-4">
+        <article class="card shadow-sm p-4">
+            <h2>GDPR</h2>
+
+            <a href="https://www.imy.se/verksamhet/dataskydd/" target="_blank" class="text-secondary">
+                Läs mer om GDPR
+            </a>
+
+            <h3 class="mt-4">General Data Protection Regulation</h3>
+            <p>
+                GDPR står för General Data Protection Regulation. Det är en dataskyddsförordning
+                som reglerar hur personuppgifter får samlas in, lagras och användas. Syftet är
+                att skydda människors personliga integritet och ge dem större kontroll över sina
+                egna uppgifter.
+            </p>
+
+            <h3>PUL - Personuppgiftslagen</h3>
+            <p>
+                Innan GDPR fanns PUL, som står för Personuppgiftslagen. Den lagen hade som
+                syfte att skydda individers personliga integritet när företag och myndigheter
+                behandlade personuppgifter. När GDPR började gälla ersattes PUL för att skapa
+                gemensamma regler inom EU.
+            </p>
+
+            <h3>Var gäller GDPR?</h3>
+            <p>
+                GDPR gäller i hela Europa. Det betyder att alla länder inom EU måste följa
+                samma regler. Lagen påverkar även företag utanför EU om de hanterar
+                personuppgifter om personer som befinner sig inom EU.
+            </p>
+
+            <h3>Vad säger den nya lagen?</h3>
+            <p>
+                Lagen ger skydd för fysiska personer vid behandling av personuppgifter.
+                Den ser också till att inte fler personuppgifter används än vad som behövs
+                för det specifika syftet. Företag måste alltså kunna förklara varför de samlar
+                in uppgifter och får inte lagra dem längre än nödvändigt.
+            </p>
+
+            <h3>Information om mig på nätet</h3>
+            <p>
+                När jag sökte på mitt namn fick jag flera träffar som berör mig, bland annat från
+                upplysningstjänster där min ålder och adress visas. Uppgifterna kommer från
+                folkbokföringen och är tillgängliga för både privatpersoner och företag via sådana
+                webbplatser.
+            </p>
+
+            <p>
+                Informationen är kopplad till min nuvarande adress och visas främst på
+                registerbaserade sidor. Det känns lite obehagligt att uppgifterna är så lättillgängliga,
+                men det gör mig också mer medveten om hur viktigt det är att personuppgifter skyddas.
+            </p>
+        </article>
+    </section>
+
+    <section id="netikett" class="mb-4">
+        <article class="card shadow-sm p-4">
+            <h2>Netikett (Vett & Etikett)</h2>
+
+            <a href="https://sv.wikipedia.org/wiki/Netikett" target="_blank" class="text-secondary">
+                Läs mer om netikett
+            </a>
+
+            <h3 class="mt-4">Vad får man inte göra enligt yttrandefriheten?</h3>
+            <p>
+                Yttrandefriheten ger oss rätt att uttrycka våra åsikter, men den har tydliga gränser.
+                Man får inte hota andra personer eller uppmana till våld. Det är förbjudet att sprida
+                förtal, alltså att peka ut någon som brottslig eller klandervärd utan grund. Man får
+                inte heller hetsa mot folkgrupp genom att sprida hat eller kränkande uttalanden om
+                människor baserat på exempelvis etnicitet, religion eller sexuell läggning. Att dela
+                olagliga bilder eller känsligt material utan samtycke är också förbjudet. Det betyder
+                att man har ett ansvar för det man publicerar på nätet.
+            </p>
+
+            <h3>Vad är netikett?</h3>
+            <p>
+                Netikett är regler och rekommendationer för hur man bör bete sig på internet.
+                Det handlar om att visa respekt, använda sunt förnuft och förstå att det finns
+                riktiga människor bakom skärmen.
+            </p>
+
+            <h3>Fem goda råd inom netikett</h3>
+            <ul>
+                <li><strong>Visa respekt.</strong> Skriv inte saker som du inte skulle säga ansikte mot ansikte.</li>
+                <li><strong>Tänk innan du publicerar.</strong> Det du lägger upp kan spridas och finnas kvar länge.</li>
+                <li><strong>Kontrollera fakta.</strong> Dela inte rykten eller osäker information.</li>
+                <li><strong>Respektera andras integritet.</strong> Lägg inte upp bilder eller personuppgifter utan tillåtelse.</li>
+                <li><strong>Skriv inte i affekt.</strong> Ta en paus om du är arg innan du svarar.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="tillganglighet" class="mb-4">
+        <article class="card shadow-sm p-4">
+            <h2>Tillgänglighet</h2>
+
+            <a href="https://www.digg.se/kunskap-och-stod/digital-tillganglighet" target="_blank" class="text-secondary">
+                Läs mer om tillgänglighet
+            </a>
+
+            <p>
+                Den nya tillgänglighetslagen som börjar gälla 2025 gör det ännu viktigare att
+                webbplatser utformas så att alla människor kan använda dem, oavsett
+                funktionsförmåga. När man planerar en webbplats är det därför viktigt att
+                tänka på tydlig struktur, bra kontrast mellan text och bakgrund samt att
+                texten ska kunna förstoras utan att sidan slutar fungera. Personer med
+                synnedsättning använder ofta skärmläsare, vilket betyder att man måste
+                använda korrekt HTML-struktur och skriva alternativa texter till bilder.
+            </p>
+
+            <p>
+                För personer med hörselnedsättning är det viktigt att filmer har textning
+                och att viktig information inte bara ges via ljud. Webbplatsen bör också
+                kunna användas med tangentbord och inte enbart med mus, eftersom vissa
+                användare har motoriska svårigheter. En annan viktig del är att språket
+                ska vara enkelt och tydligt så att även personer med språksvårigheter
+                eller kognitiva svårigheter kan förstå innehållet.
+            </p>
+
+            <p>
+                Det viktigaste är att tänka på tillgänglighet redan från början i
+                planeringen och inte som något man lägger till i efterhand. En tillgänglig
+                webbplats gynnar alla användare, inte bara personer med funktionsnedsättning.
+                Det handlar i grunden om att skapa en inkluderande digital miljö där så
+                många som möjligt kan ta del av information och tjänster på lika villkor.
+            </p>
+        </article>
+    </section>
+
+</main>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">Melker Celander &copy;</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
